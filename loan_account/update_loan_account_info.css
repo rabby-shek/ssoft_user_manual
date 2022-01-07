@@ -5,12 +5,29 @@
 	line-height: 19px;
 	font-weight: 600;
 }
-.row{
-	margin-top: 10px;
-}
+
 .steps{
 	font-weight: bolder;
 }
+.navbar-brand{
+    padding-left: 38px;
+}
+.nav-item{
+    padding-left: 154px;
+}
+.container ul li{
+	list-style-type: none;
+
+}
+.container ul li a{
+	color: white;
+	
+}
+.container ul li a:hover{
+	color: #848588;
+
+}
+
 
 }
 @media print{
@@ -18,9 +35,7 @@
 		font-size: 17px;
 		line-height: 15px;
 	}
-	.row{
-	margin-top: 10px;
-}
+
 .steps{
 	font-weight: bolder;
 }

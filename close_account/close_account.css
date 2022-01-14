@@ -1,3 +1,13 @@
+@media screen{
+	.left{
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	font-size: 18px;
+	line-height: 19px;
+	font-weight: 600;
+}
+.steps{
+	font-weight: bolder;
+}
 .navbar-brand{
     padding-left: 38px;
 }
@@ -15,4 +25,17 @@
 .container ul li a:hover{
 	color: #848588;
 
+}
+
+
+}
+@media print{
+	.left{
+		font-size: 17px;
+		line-height: 15px;
+	}
+
+.steps{
+	font-weight: bolder;
+}
 }

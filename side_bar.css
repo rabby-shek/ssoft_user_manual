@@ -30,3 +30,36 @@
 
 
 }
+.home_section{
+    position: relative;
+    background: #E4E9F9;
+    height: 100vh;
+    left: 260px;
+    width: calc(100% - 260px);
+    transition: all 0.5s ease;
+}
+
+.sidebar.close ~ .home_section{
+    left: 78px;
+    width: calc(100% - 78px);
+}
+.home_section .home_content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.home_section .home_content .bx_menu,
+.home_section .home_content .text{
+    color: #11101d;
+    font-size: 35px;
+}
+.home_section .home_content .bx_menu{
+    margin: 0 15px;
+    cursor: pointer;
+
+}
+.home_section .home_content .text{
+    font-size: 26px;
+    font-weight: 600;
+}
+

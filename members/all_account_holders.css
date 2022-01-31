@@ -5,6 +5,9 @@
 	line-height: 19px;
 	font-weight: 600;
 }
+.col-9{
+	transition: 3s;
+}
 
 .steps{
 	font-weight: bolder;

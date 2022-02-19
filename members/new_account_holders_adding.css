@@ -4,6 +4,10 @@
 	font-size: 18px;
 	line-height: 19px;
 	font-weight: 600;
+	transition: 0.3s;
+}
+.col-9{
+	transition: 3s;
 }
 .steps{
 	font-weight: bolder;
